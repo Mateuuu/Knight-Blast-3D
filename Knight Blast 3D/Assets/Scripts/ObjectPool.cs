@@ -4,32 +4,37 @@ using UnityEngine;
 
 public static class ObjectPool
 {
-    static private Queue<GameObject> objectsInPool = new Queue<GameObject>();
-    static private Dictionary<KeyValuePair<string, GameObject>, Queue<GameObject>> poolDictionary = new Dictionary<KeyValuePair<string, GameObject>,Queue<GameObject>>();
+    static private Dictionary<string, KeyValuePair<GameObject, Queue<GameObject>>> poolDictionary = new Dictionary<string, KeyValuePair<GameObject, Queue<GameObject>>>();
     public static void NewPool(string name, GameObject ObjectToPool)
     {
-        
+        poolDictionary.Add(name, new KeyValuePair<GameObject, Queue<GameObject>>(ObjectToPool, new Queue<GameObject>()));
     }
 
     public static void SpawnFromPool(string tag, Vector3 position, Quaternion rotation)
     {
-        if(objectsInPool.Count == 0)
+        if(poolDictionary[tag].Value.Count == 0)
         {
-            poolDictionary[[tag]]
-            AddObjects(tag, 1, position, rotation);
+            AddObjectsToPool(tag, 1, position, rotation);
         }
+        GameObject obj = poolDictionary[tag].Value.Dequeue();
+        obj.transform.position = position;
+        obj.transform.rotation = rotation;
+        obj.SetActive(true);
 
     }
-    static void AddObjects(string tag, int count, Vector3 position, Quaternion rotation)
+    static void AddObjectsToPool(string tag, int count, Vector3 position, Quaternion rotation)
     {
         for(int i = 0; i < count; i++)
         {
-            Object.Instantiate(poolDictionary[].Dequeue());
+            GameObject obj = Object.Instantiate(poolDictionary[tag].Key);
+            obj.SetActive(false);
+            poolDictionary[tag].Value.Enqueue(obj);
         }
     }
 
-    public static void ReturnToPool()
+    public static void ReturnToPool(string tag, GameObject objectToReturn)
     {
-
+        objectToReturn.SetActive(false);
+        poolDictionary[tag].Value.Enqueue(objectToReturn);
     }
 }

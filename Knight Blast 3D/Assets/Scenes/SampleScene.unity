@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 925488116}
   - component: {fileID: 925488115}
   - component: {fileID: 925488114}
+  - component: {fileID: 925488118}
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
@@ -691,6 +692,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925488118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925488113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e510352db7de26aa68a878a52ee24173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 4
 --- !u!1 &944336707
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,6 +893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1461472177}
+  - component: {fileID: 1461472178}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -907,6 +922,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1461472178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461472176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab20db551a8d3269b24370d50827636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  refireRate: 0.1
+  thingy: {fileID: 925488113}
 --- !u!1 &1476025226
 GameObject:
   m_ObjectHideFlags: 0
