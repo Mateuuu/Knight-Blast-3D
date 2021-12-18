@@ -3,18 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
-    [SerializeField] private float refireRate = .01f;
-    private float fireTimer = 0;
-    [SerializeField] private GameObject thingy;
+    [SerializeField] private GameObject arrow;
     private void Start() {
-        ObjectPool.NewPool("thingy", thingy);
+        ObjectPool.NewPool("PlayerArrow", arrow);
     }
     private void Update() {
-        fireTimer += Time.deltaTime;
-        if(fireTimer >= refireRate)
+
+        if(Input.GetButtonDown("Right"))
         {
-            fireTimer = 0;
-            ObjectPool.SpawnFromPool("thingy", new Vector3(1, 5, 1), Quaternion.identity);
+            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(1, 5, 1), Quaternion.Euler(0, 0, 0));
+        }
+        else if(Input.GetButtonDown("Left"))
+        {
+            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(1, 5, 1), Quaternion.Euler(0, 180, 0));
+        }
+        else if(Input.GetButtonDown("Up"))
+        {
+            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(1, 5, 1), Quaternion.Euler(0, 90, 0));
+        }
+        else if(Input.GetButtonDown("Down"))
+        {
+            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(1, 5, 1), Quaternion.Euler(0, 270, 0));
         }
     }
 }
