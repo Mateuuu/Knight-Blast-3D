@@ -3,27 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerShooting : MonoBehaviour
 {
-    [SerializeField] private GameObject arrow;
+    [SerializeField] private GameObject shield;
     private void Start() {
-        ObjectPool.NewPool("PlayerArrow", arrow);
     }
-    private void Update() {
+    private void Update()
+    {
+        if(Input.GetButtonDown("TopRight"))
+        {
+            shield.transform.position = new Vector3(1, 0, 1);
+            shield.transform.rotation = Quaternion.Euler(0, -45, 0);
+        }
+        if(Input.GetButtonDown("TopLeft"))
+        {
+            shield.transform.position = new Vector3(-1, 0, 1);
+            shield.transform.rotation = Quaternion.Euler(0, 45, 0);
 
-        if(Input.GetButtonDown("Right"))
-        {
-            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(0, 0, 0), Quaternion.Euler(0, 180, 0));
         }
-        else if(Input.GetButtonDown("Left"))
+        if(Input.GetButtonDown("BottomRight"))
         {
-            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(0, 0, 0), Quaternion.Euler(0, 0, 0));
+            shield.transform.position = new Vector3(1, 0, -1);
+            shield.transform.rotation = Quaternion.Euler(0, 45, 0);
+
         }
-        else if(Input.GetButtonDown("Up"))
+        if(Input.GetButtonDown("BottomLeft"))
         {
-            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(0, 0, 0), Quaternion.Euler(0, 90, 0));
-        }
-        else if(Input.GetButtonDown("Down"))
-        {
-            ObjectPool.SpawnFromPool("PlayerArrow", new Vector3(0, 0, 0), Quaternion.Euler(0, 270, 0));
+            shield.transform.position = new Vector3(-1, 0, -1);
+            shield.transform.rotation = Quaternion.Euler(0, -45, 0);
+
         }
     }
 }
