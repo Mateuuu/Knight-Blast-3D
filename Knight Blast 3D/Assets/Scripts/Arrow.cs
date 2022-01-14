@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerArrowBehavior : MonoBehaviour
+public class Arrow : MonoBehaviour
 {
     Rigidbody rb;
     [SerializeField] private float arrowLifetime = 2f;

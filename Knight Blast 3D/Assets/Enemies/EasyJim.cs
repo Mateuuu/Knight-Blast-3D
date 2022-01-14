@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EasyJim : BaseEnemyBehavior
 {
+    private float lastTimeSinceShot = 0;
     // Basically a start method due to object pooling.
     private void OnEnable()
     {
@@ -13,8 +14,11 @@ public class EasyJim : BaseEnemyBehavior
     // Update is called once per frame
     void Update()
     {
-        TargetPlayer();
-        
+        lastTimeSinceShot += Time.deltaTime;
+        if(lastTimeSinceShot > minTimeBetweenShots)
+        {
+            return;
+        }
     }
     public override void Action()
     {
