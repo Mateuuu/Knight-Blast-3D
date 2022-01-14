@@ -6,8 +6,8 @@ public class Arrow : MonoBehaviour
 {
     Rigidbody rb;
     [SerializeField] private float arrowLifetime = 2f;
-    private float arrowTimer;
     [SerializeField] private float arrowSpeed = 5f;
+    private float arrowTimer;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -25,7 +25,7 @@ public class Arrow : MonoBehaviour
         arrowTimer += Time.deltaTime;
         if(arrowTimer >= arrowLifetime)
         {
-            ObjectPool.ReturnToPool("PlayerArrow", this.gameObject);
+            ObjectPool.ReturnToPool("Arrow", this.gameObject);
             arrowTimer = 0f;
         }
     }

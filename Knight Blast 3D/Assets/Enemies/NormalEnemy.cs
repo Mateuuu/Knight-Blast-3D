@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EasyJim : BaseEnemyBehavior
+public class NormalEnemy : BaseEnemyBehavior
 {
+    [SerializeField] GameObject arrowPrefab;
     private float lastTimeSinceShot = 0;
     // Basically a start method due to object pooling.
     private void OnEnable()
     {
+        ObjectPool.NewPool("Arrow", arrowPrefab);
         TargetPlayer();
     }
 
@@ -17,7 +19,8 @@ public class EasyJim : BaseEnemyBehavior
         lastTimeSinceShot += Time.deltaTime;
         if(lastTimeSinceShot > minTimeBetweenShots)
         {
-            return;
+            lastTimeSinceShot = 0;
+            ObjectPool.SpawnFromPool("Arrow", transform.position, Quaternion.identity);
         }
     }
     public override void Action()
