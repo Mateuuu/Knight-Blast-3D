@@ -6,10 +6,12 @@ public class NormalEnemy : BaseEnemyBehavior
 {
     [SerializeField] GameObject arrowPrefab;
     private float lastTimeSinceShot = 0;
+    private void Start() {
+        ObjectPool.NewPool("Arrow", arrowPrefab);
+    }
     // Basically a start method due to object pooling.
     private void OnEnable()
     {
-        ObjectPool.NewPool("Arrow", arrowPrefab);
         TargetPlayer();
     }
 
@@ -20,7 +22,7 @@ public class NormalEnemy : BaseEnemyBehavior
         if(lastTimeSinceShot > minTimeBetweenShots)
         {
             lastTimeSinceShot = 0;
-            ObjectPool.SpawnFromPool("Arrow", transform.position, Quaternion.identity);
+            ObjectPool.SpawnFromPool("Arrow", transform.position, transform.rotation);
         }
     }
     public override void Action()

@@ -14,7 +14,7 @@ public class Arrow : MonoBehaviour
     }
     private void OnEnable()
     {
-        rb.AddForce(-transform.right * arrowSpeed ,ForceMode.Impulse);
+        rb.AddForce(transform.forward * arrowSpeed ,ForceMode.Impulse);
     }
     private void OnDisable()
     {
