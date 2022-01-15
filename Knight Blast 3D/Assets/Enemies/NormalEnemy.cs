@@ -29,13 +29,14 @@ public class NormalEnemy : BaseEnemyBehavior
     }
     private IEnumerator arrowLoop()
     {
+        WaitForSeconds burstTimeWait = new WaitForSeconds(timeBetweenBurst);
         while(true)
         {
             int time = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
             yield return new WaitForSeconds(time);
             for(int i = 0; i < burst; i++)
             {
-                yield return new WaitForSeconds(timeBetweenBurst);
+                yield return burstTimeWait;
                 Action();
             }
         }
