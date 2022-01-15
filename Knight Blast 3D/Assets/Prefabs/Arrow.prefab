@@ -96,7 +96,7 @@ GameObject:
   m_Layer: 0
   m_Name: Arrow
   m_TagString: Untagged
-  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -187,8 +187,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3831351870277880241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0005967915, y: 0, z: 1.175}
-  m_LocalScale: {x: -0.0050499993, y: -0.00505, z: -0.13970998}
+  m_LocalPosition: {x: -0.005, y: -0.0000000099256, z: 1.685}
+  m_LocalScale: {x: -0.010313613, y: -0.010313614, z: -0.2853297}
   m_Children: []
   m_Father: {fileID: 7069182033284452950}
   m_RootOrder: 2
@@ -268,8 +268,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5306948003120069894}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.0059999973, y: 0.002, z: -0.065}
-  m_LocalScale: {x: 0.00217, y: 0.00217, z: 0.00217}
+  m_LocalPosition: {x: -0.0059606, y: 0.0034858, z: -0.038674}
+  m_LocalScale: {x: 0.003418401, y: 0.003418401, z: 0.003418401}
   m_Children: []
   m_Father: {fileID: 7069182033284452950}
   m_RootOrder: 0
@@ -349,8 +349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5942810540903984983}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.006, y: 0, z: -0.058}
-  m_LocalScale: {x: 0.00217, y: 0.00217, z: 0.00217}
+  m_LocalPosition: {x: -0.0059606, y: 0.00033517, z: -0.027647}
+  m_LocalScale: {x: 0.003418401, y: 0.003418401, z: 0.003418401}
   m_Children: []
   m_Father: {fileID: 7069182033284452950}
   m_RootOrder: 1
