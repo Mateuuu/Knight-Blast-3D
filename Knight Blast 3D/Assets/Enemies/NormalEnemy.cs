@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class NormalEnemy : BaseEnemyBehavior
 {
+
     [SerializeField] GameObject arrowPrefab;
-    private float lastTimeSinceShot = 0;
     private void Start() {
         ObjectPool.NewPool("Arrow", arrowPrefab);
     }
@@ -13,26 +13,33 @@ public class NormalEnemy : BaseEnemyBehavior
     private void OnEnable()
     {
         TargetPlayer();
+        StartCoroutine(arrowLoop());
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        lastTimeSinceShot += Time.deltaTime;
-        if(lastTimeSinceShot > minTimeBetweenShots)
-        {
-            lastTimeSinceShot = 0;
-            ObjectPool.SpawnFromPool("Arrow", transform.position, transform.rotation);
-        }
+        StopCoroutine(arrowLoop());
     }
     public override void Action()
     {
-
+        ObjectPool.SpawnFromPool("Arrow", transform.position, transform.rotation);
     }
     public override void TakeDamage()
     {
         
     }
+    private IEnumerator arrowLoop()
+    {
+        while(true)
+        {
+            int time = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+            yield return new WaitForSeconds(time);
+            for(int i = 0; i < burst; i++)
+            {
+                yield return new WaitForSeconds(timeBetweenBurst);
+                Action();
+            }
+        }
+    } 
     private void TargetPlayer()
     {
         // Vector3 target = new Vector3(0, 0, 0);
