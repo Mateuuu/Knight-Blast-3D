@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: burst
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: health
@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: maxTimeBetweenShots
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: minTimeBetweenShots
@@ -5949,7 +5949,7 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: burst
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: health
@@ -5965,7 +5965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: maxTimeBetweenShots
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: minTimeBetweenShots
@@ -6054,7 +6054,7 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: burst
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: health
@@ -6070,7 +6070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: maxTimeBetweenShots
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: minTimeBetweenShots
@@ -6110,7 +6110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8005747973070406948, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4474
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 8005747973070406948, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6144,7 +6144,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
 --- !u!1001 &8479925899518204289
 PrefabInstance:
@@ -6159,7 +6160,7 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: burst
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: health
@@ -6175,7 +6176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: maxTimeBetweenShots
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1756606086, guid: 590abac4d6b1c25f79e0daeafec6b27d, type: 3}
       propertyPath: minTimeBetweenShots
