@@ -33,7 +33,7 @@ public class NormalEnemy : BaseEnemyBehavior
         while(true)
         {
             int time = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
-            yield return new WaitForSeconds(time);
+            yield return WaitForXSeconds.WaitForXSecond[time];
             for(int i = 0; i < burst; i++)
             {
                 yield return burstTimeWait;
