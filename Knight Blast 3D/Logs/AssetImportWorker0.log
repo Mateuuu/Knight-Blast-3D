@@ -173,3 +173,4 @@ Received Import Request.
 Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(c4ab68756b3327d439f7e384b1e68c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5fd5fcb5ab07c47565cd3f0cd020bd') in 0.039265 seconds 
   Import took 0.041295 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
