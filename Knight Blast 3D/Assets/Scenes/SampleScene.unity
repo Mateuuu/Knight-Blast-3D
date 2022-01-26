@@ -5163,7 +5163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6740198252858879919, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6740198252858879919, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5259,7 +5259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4023526287255959443, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4023526287255959443, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5287,7 +5287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3991764738380538430, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3991764738380538430, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5331,7 +5331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3157042726314647931, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -3157042726314647931, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5431,7 +5431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -580697389960285659, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -580697389960285659, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5483,7 +5483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2424563437057399258, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2424563437057399258, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5551,7 +5551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3430294755284969638, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3430294755284969638, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5583,7 +5583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3849271805835374487, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3849271805835374487, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5627,7 +5627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4838909528912933098, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4838909528912933098, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5663,7 +5663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5132860563678487746, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5132860563678487746, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5707,7 +5707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6337211457348575429, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6337211457348575429, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
@@ -5791,7 +5791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9094298047055019325, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_ScaleInLightmap
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9094298047055019325, guid: 8f19ddc3b0573ec4194a19acf01c45b6, type: 3}
       propertyPath: m_LightmapParameters
