@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4984144293119627638}
   - component: {fileID: 6501507391196388907}
   - component: {fileID: 2010758339309969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow_Shaft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: -3554517479692280257}
   - component: {fileID: 2548185887562384655}
   - component: {fileID: 3709014651604590399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 4239736671302544215}
   - component: {fileID: 8249943926430765877}
   - component: {fileID: 8179829966436839600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow_Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 6008506025413870781}
   - component: {fileID: 3657215856351058338}
   - component: {fileID: 1701738852719331162}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow_Feather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 2571731746164545694}
   - component: {fileID: 6453006084776988521}
   - component: {fileID: 2198939239580972976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow_Feather_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
