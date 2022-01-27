@@ -5,18 +5,16 @@ using UnityEngine;
 public class HitWindow : MonoBehaviour
 {
     [HideInInspector] public bool inHitbox = false;
+    [HideInInspector] public Collider collision;
     private void OnTriggerStay(Collider other)
     {
         if(other.gameObject.layer == 6)
         {
             inHitbox = true;
         }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-    if(other.gameObject.layer == 6)
+        else
         {
             inHitbox = false;
-        } 
+        }
     }
 }

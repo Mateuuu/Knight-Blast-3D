@@ -6,9 +6,6 @@ public class NormalEnemy : BaseEnemyBehavior
 {
 
     [SerializeField] GameObject arrowPrefab;
-    private void Start() {
-        ObjectPool.NewPool("Arrow", arrowPrefab);
-    }
     // Basically a start method due to object pooling.
     private void OnEnable()
     {

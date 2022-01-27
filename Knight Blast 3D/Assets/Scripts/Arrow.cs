@@ -5,28 +5,34 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     Rigidbody rb;
-    [SerializeField] private float arrowLifetime = 2f;
+    [SerializeField] private int arrowLifetime = 2;
     [SerializeField] private float arrowSpeed = 5f;
-    private float arrowTimer;
+    Vector3 inverseVelocity = new Vector3 (-1, 1, -1);
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
     }
     private void OnEnable()
     {
+        StartCoroutine(ArrowTimer());
         rb.AddForce(transform.forward * arrowSpeed ,ForceMode.Impulse);
     }
     private void OnDisable()
     {
         rb.velocity = new Vector3(0, 0, 0);
     }
-    private void Update()
+    IEnumerator ArrowTimer()
     {
-        arrowTimer += Time.deltaTime;
-        if(arrowTimer >= arrowLifetime)
+        yield return WaitForXSeconds.WaitForXSecond[arrowLifetime];
+        gameObject.layer = 6;
+        ObjectPool.ReturnToPool("Arrow", this.gameObject);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.layer == 8)
         {
-            ObjectPool.ReturnToPool("Arrow", this.gameObject);
-            arrowTimer = 0f;
+            rb.velocity = new Vector3(-2*rb.velocity.x, rb.velocity.y, -2*rb.velocity.z);
+            gameObject.layer = 9;
         }
     }
 }
