@@ -6497,7 +6497,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 69e35d2473c34a19aba4da0dede5efce, type: 2}
     - target: {fileID: -3821253740895256905, guid: c4ab68756b3327d439f7e384b1e68c07, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -112934384319927395, guid: c4ab68756b3327d439f7e384b1e68c07, type: 3}
       propertyPath: m_LocalScale.z
@@ -6533,11 +6533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4811171726696857748, guid: c4ab68756b3327d439f7e384b1e68c07, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5619302609615435187, guid: c4ab68756b3327d439f7e384b1e68c07, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7293059144023096718, guid: c4ab68756b3327d439f7e384b1e68c07, type: 3}
       propertyPath: m_CastShadows
