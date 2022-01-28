@@ -31,7 +31,7 @@ Shader "Custom/WindyTrees"
         fixed4 _Color;
         void vert(inout appdata_full data)
         {
-            float displacementZ = sin(data.vertex.z * _WindSpeed * _Time[0]);
+            float displacementZ = sin(data.vertex.y * _WindSpeed * _Time[0]);
             data.vertex.x += displacementZ * _WindStrength;
         }
 

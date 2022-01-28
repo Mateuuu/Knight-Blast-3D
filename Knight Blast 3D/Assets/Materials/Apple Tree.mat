@@ -72,7 +72,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WindSpeed: 30
-    - _WindStrength: 0.1
+    - _WindStrength: 0.05
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.5951767, g: 1, b: 0, a: 1}
