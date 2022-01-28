@@ -9,7 +9,7 @@ Architecture:            x86_64
 Available memory:        11528 MB
 Using pre-set license
 Pro License: NO
-Desktop is 1366 x 768 @ 60 Hz
+Desktop is 3286 x 1080 @ 60 Hz
 
 COMMAND LINE ARGUMENTS:
 Unity
@@ -23,11 +23,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39255
+41119
 Successfully changed project path to: /home/matthew/UnityProjects/Knight Blast 3D/Knight-Blast-3D/Knight Blast 3D
 /home/matthew/UnityProjects/Knight Blast 3D/Knight-Blast-3D/Knight Blast 3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -43,87 +43,87 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1466218496
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1568273696
 Initialize mono
 Mono path[0] = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56111
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56702
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001550 seconds.
+Registered in 0.001446 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.532 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (532ms)
-		BeginReloadAssembly (27ms)
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (31ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (430ms)
-			LoadAssemblies (26ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (31ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002335 seconds.
+Registered in 0.002282 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.902 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (903ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (753ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (805ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (307ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -139,7 +139,7 @@ System memory in use before: 72.6 MB.
 System memory in use after: 72.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 4.650056 ms (FindLiveObjects: 0.148501 ms CreateObjectMapping: 0.047049 ms MarkObjects: 4.282138 ms  DeleteObjects: 0.170458 ms)
+Total: 5.248367 ms (FindLiveObjects: 0.215923 ms CreateObjectMapping: 0.054041 ms MarkObjects: 4.742625 ms  DeleteObjects: 0.234220 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,163 +152,125 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e2c86d30ec8f8b3fcaa8e81e16abb6') in 0.133887 seconds 
-  Import took 0.136869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
   path: Assets/Models/Knight_Blast_Model.blend
   artifactKey: Guid(56584e2ff7e622140bde1b4200e19250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Model.blend using Guid(56584e2ff7e622140bde1b4200e19250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad85dff170bb219748afed9628a061d7') in 0.100285 seconds 
-  Import took 0.102614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.818686 seconds.
-  path: Assets/Models/Knight_Blast_Fauna.blend
-  artifactKey: Guid(8f19ddc3b0573ec4194a19acf01c45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(8f19ddc3b0573ec4194a19acf01c45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f8bc14ca4a51efb3b3ae854e387672') in 0.239985 seconds 
-  Import took 0.242901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.893016 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29469ab325c1376f5f4f9d0e4a6d4f70') in 0.033132 seconds 
-  Import took 0.035567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.185312 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c811d71a611f9fee5e2e14c4f80926b') in 0.033229 seconds 
-  Import took 0.035998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.722114 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa28480d4584634b9022c52432807b9a') in 0.064280 seconds 
-  Import took 0.067344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.655257 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93736ca760fee9aa0d68c36f15112472') in 0.037277 seconds 
-  Import took 0.040476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.039417 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8129b71cd034659b0d18d680b9c0f2') in 0.066859 seconds 
-  Import took 0.069237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.502182 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33de1c16b86f308ffb11dd58941dd08d') in 0.033496 seconds 
-  Import took 0.036023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.269182 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193f565ef92594c8dd7f23406e9f6919') in 0.036846 seconds 
-  Import took 0.039931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.102939 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939701193074516edc928e38191b9f95') in 0.073683 seconds 
-  Import took 0.077348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.750750 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686ea141d983916c112ac7c427bf80c6') in 0.033344 seconds 
-  Import took 0.035885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.006590 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b42a0317ee463bb73a3c8537fb827d') in 0.096639 seconds 
-  Import took 0.099832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.435209 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map 1.blend
-  artifactKey: Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map 1.blend using Guid(4304d127676d76047bbe69fc954e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49020f0f0ed3f6594a0aac32d7c1e3bf') in 0.040050 seconds 
-  Import took 0.045679 seconds .
+Start importing Assets/Models/Knight_Blast_Model.blend using Guid(56584e2ff7e622140bde1b4200e19250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb6c25256eca8f47167aae629388489') in 0.178220 seconds 
+  Import took 0.181314 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001965 seconds.
+Registered in 0.001992 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.561 seconds
+- Completed reload, in  0.831 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1561ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (831ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1601 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.3 MB.
+System memory in use after: 71.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 4.290755 ms (FindLiveObjects: 0.119288 ms CreateObjectMapping: 0.038228 ms MarkObjects: 4.091352 ms  DeleteObjects: 0.041079 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.007060 seconds.
+  path: Assets/Models/Knight_Blast_Model.blend
+  artifactKey: Guid(56584e2ff7e622140bde1b4200e19250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Model.blend using Guid(56584e2ff7e622140bde1b4200e19250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f298b25a508762fd178228ed6878903') in 0.180039 seconds 
+  Import took 0.183092 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1331ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (336ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1601 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2116.
-Total: 6.626018 ms (FindLiveObjects: 0.273403 ms CreateObjectMapping: 0.061462 ms MarkObjects: 6.102338 ms  DeleteObjects: 0.183949 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2119.
+Total: 4.221111 ms (FindLiveObjects: 0.152824 ms CreateObjectMapping: 0.039788 ms MarkObjects: 3.979623 ms  DeleteObjects: 0.048002 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
