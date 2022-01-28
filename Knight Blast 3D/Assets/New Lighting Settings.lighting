@@ -18,11 +18,11 @@ LightingSettings:
   m_UsingShadowmask: 1
   m_BakeBackend: 1
   m_LightmapMaxSize: 1024
-  m_BakeResolution: 15
+  m_BakeResolution: 10
   m_Padding: 2
   m_TextureCompression: 1
   m_AO: 1
-  m_AOMaxDistance: 32.33
+  m_AOMaxDistance: 32
   m_CompAOExponent: 5.25
   m_CompAOExponentDirect: 5.62
   m_ExtractAO: 0
