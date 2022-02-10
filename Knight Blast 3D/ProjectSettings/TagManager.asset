@@ -13,9 +13,9 @@ TagManager:
   - UI
   - Arrow
   - PostProcessing
-  - Shield
+  - ShieldActive
   - PlayerArrow
-  - 
+  - ShieldInactive
   - 
   - 
   - 

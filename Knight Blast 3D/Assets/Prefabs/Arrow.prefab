@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb61d507e596670d822cfea2946099c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowLifetime: 2
+  arrowLifetime: 3
   arrowSpeed: 5
 --- !u!54 &2548185887562384655
 Rigidbody:
@@ -159,8 +159,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.08852571, y: 0.06874447, z: 1.1240396}
-  m_Center: {x: -0.009068701, y: -0.0016071997, z: 0.3657014}
+  m_Size: {x: 0.08852571, y: 0.06874447, z: 0.29725337}
+  m_Center: {x: -0.009068701, y: -0.0016072013, z: 0.7790948}
 --- !u!1 &3831351870277880241
 GameObject:
   m_ObjectHideFlags: 0
