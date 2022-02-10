@@ -34,5 +34,10 @@ public class Arrow : MonoBehaviour
             rb.velocity = new Vector3(-2*rb.velocity.x, rb.velocity.y, -2*rb.velocity.z);
             gameObject.layer = 9;
         }
+        else if(other.gameObject.layer == 10)
+        {
+            StopCoroutine(ArrowTimer());
+            ObjectPool.ReturnToPool("Arrow", this.gameObject);
+        }
     }
 }
