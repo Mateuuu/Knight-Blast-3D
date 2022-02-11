@@ -9,7 +9,7 @@ Architecture:            x86_64
 Available memory:        11528 MB
 Using pre-set license
 Pro License: NO
-Desktop is 1366 x 768 @ 60 Hz
+Desktop is 3286 x 1080 @ 60 Hz
 
 COMMAND LINE ARGUMENTS:
 Unity
@@ -23,11 +23,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39817
+36167
 Successfully changed project path to: /home/matthew/UnityProjects/Knight Blast 3D/Knight-Blast-3D/Knight Blast 3D
 /home/matthew/UnityProjects/Knight Blast 3D/Knight-Blast-3D/Knight Blast 3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -43,48 +43,48 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 155179456
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -528418816
 Initialize mono
 Mono path[0] = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56049
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/matthew/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001505 seconds.
+Registered in 0.001453 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.528 seconds
+- Completed reload, in  0.536 seconds
 Domain Reload Profiling:
-	ReloadAssembly (529ms)
-		BeginReloadAssembly (27ms)
+	ReloadAssembly (536ms)
+		BeginReloadAssembly (29ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (438ms)
-			LoadAssemblies (26ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (27ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (97ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (96ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -92,54 +92,54 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002508 seconds.
+Registered in 0.002081 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.931 seconds
 Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (791ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (327ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (191ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1744 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 76.4 MB.
-System memory in use after: 76.5 MB.
+System memory in use after: 76.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2180.
-Total: 5.165298 ms (FindLiveObjects: 0.145124 ms CreateObjectMapping: 0.044260 ms MarkObjects: 4.782522 ms  DeleteObjects: 0.191256 ms)
+Total: 5.067414 ms (FindLiveObjects: 0.160722 ms CreateObjectMapping: 0.040994 ms MarkObjects: 4.683364 ms  DeleteObjects: 0.181114 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,67 +152,261 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648d84ed1837fcd868aac0cf2c2eadac') in 0.133196 seconds 
-  Import took 0.135841 seconds .
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c223f38224cc0a919c4807022e3be1') in 0.240375 seconds 
+  Import took 0.243164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 8.323152 seconds.
   path: Assets/Models/Knight_Blast_Fauna.blend
   artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2421d794e98d8467eb6eb53b68ebfd') in 0.139281 seconds 
-  Import took 0.141468 seconds .
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dcc6749cacb37347f35afcd0702c5a') in 0.154385 seconds 
+  Import took 0.156906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.302428 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b064b881fae21b824cd29e9939de6fce') in 0.157458 seconds 
+  Import took 0.159899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.600564 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff2fb63a0b9048b3a1b9446c16ccbc1') in 0.173041 seconds 
+  Import took 0.175555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.263886 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74a232103e487876e0a2f35eb8909e9') in 0.168475 seconds 
+  Import took 0.171427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.782496 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84004d8f85821d23f5af96f2e05c6880') in 0.157515 seconds 
+  Import took 0.160563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.162442 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d70eb4b5f9a171a12a86a1763d3eb') in 0.161705 seconds 
+  Import took 0.164810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.899025 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09c41b9edf13c433b93375a02b0fd6') in 0.251843 seconds 
+  Import took 0.257259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.079810 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6600f1c24b224ffe29864c544cbdba52') in 0.166104 seconds 
+  Import took 0.168757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.524392 seconds.
+  path: Assets/Materials/New LightmapParameters.giparams
+  artifactKey: Guid(be2c067c051626ccd97e2770436679cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New LightmapParameters.giparams using Guid(be2c067c051626ccd97e2770436679cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24b38468f710d52ae77c16f3c0dd8e1') in 0.000853 seconds 
+  Import took 0.003361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.978272 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(0d909a88cdd774cd9b088c0a4720d5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(0d909a88cdd774cd9b088c0a4720d5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafd87dbc2903e122afefb4f55612d68') in 0.001052 seconds 
+  Import took 0.004666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(264a238cfd4986381a98e60176e5564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(264a238cfd4986381a98e60176e5564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96541d115b41e881b20fc94f4e837c88') in 0.000990 seconds 
+  Import took 0.002882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.305255 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(aa3ca8f6fefb1d5b0be45c67aa73625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(aa3ca8f6fefb1d5b0be45c67aa73625e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bc9f200f668fe0ef0e6191f7291957') in 0.000620 seconds 
+  Import took 0.003429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.668697 seconds.
+  path: Assets/Scenes/SampleScene_Profiles
+  artifactKey: Guid(925b56b9364e4ec2c881536572b7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles using Guid(925b56b9364e4ec2c881536572b7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133f11ae219015e100107592871b788c') in 0.000543 seconds 
+  Import took 0.003348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567283 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(aa5c316d6b9557f2bb6eb042e9dc009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png using Guid(aa5c316d6b9557f2bb6eb042e9dc009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b509a47b7c96fc0517bbf4b1fb9c0d') in 0.014342 seconds 
+  Import took 0.018063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(b5603a866969ee132904935aae392b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr using Guid(b5603a866969ee132904935aae392b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee545a02a8b5cf63e59cfdb314a7080') in 0.006720 seconds 
+  Import took 0.009346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(1d822953763965f598ec733a3c904ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_shadowmask.png using Guid(1d822953763965f598ec733a3c904ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc6651e0b7bc51b6d8a0b77bedb56c7') in 0.008451 seconds 
+  Import took 0.011338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(73f288cde8dde94e3abb678b020593c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(73f288cde8dde94e3abb678b020593c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53edacd827dd88341327560562754ef') in 0.024940 seconds 
+  Import took 0.028063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.538619 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8b6d23c5ee058b5fcba0721f5ffa0d') in 0.155953 seconds 
+  Import took 0.159034 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002126 seconds.
+Registered in 0.002251 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.881 seconds
 Domain Reload Profiling:
-	ReloadAssembly (805ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (679ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2230.
+Total: 4.206443 ms (FindLiveObjects: 0.157508 ms CreateObjectMapping: 0.041705 ms MarkObjects: 3.958576 ms  DeleteObjects: 0.046975 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (253ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (172ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.1 MB.
-System memory in use after: 75.2 MB.
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2225.
-Total: 4.093445 ms (FindLiveObjects: 0.120127 ms CreateObjectMapping: 0.039491 ms MarkObjects: 3.888963 ms  DeleteObjects: 0.044018 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 4.390453 ms (FindLiveObjects: 0.127839 ms CreateObjectMapping: 0.041961 ms MarkObjects: 4.169819 ms  DeleteObjects: 0.049839 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -226,189 +420,51 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002066 seconds.
+Registered in 0.002128 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
+- Completed reload, in  0.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1192ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (872ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (350ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.1 MB.
-System memory in use after: 75.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2227.
-Total: 5.012335 ms (FindLiveObjects: 0.160431 ms CreateObjectMapping: 0.050185 ms MarkObjects: 4.709873 ms  DeleteObjects: 0.088577 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 244.666616 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176e642671ab3e0c980d2e9a8b6e5e90') in 0.114341 seconds 
-  Import took 0.117445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.155884 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b41e135113bce1908dbf373e9ceff7') in 0.059858 seconds 
-  Import took 0.062674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.332986 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d997fd1c10220607c34b09c25437dd9') in 0.034000 seconds 
-  Import took 0.036858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.416158 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfbfdc58784f02b521ee4bd5b1ef8e2') in 0.063246 seconds 
-  Import took 0.065757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.405874 seconds.
-  path: Assets/Models/Knight_Blast_Fauna.blend
-  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bf49bb666c566d8fc35f95ac7dc370') in 0.162934 seconds 
-  Import took 0.166115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.746313 seconds.
-  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat
-  artifactKey: Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Materials/Dirt_Path.mat using Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134669410d033628431026e33a06a172') in 0.256857 seconds 
-  Import took 0.261012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_A.mat
-  artifactKey: Guid(f9a94780aa94b7c4985400ab0bedcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_A.mat using Guid(f9a94780aa94b7c4985400ab0bedcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac590688cbdc9491b0542d58fd348cb') in 0.033072 seconds 
-  Import took 0.036039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat
-  artifactKey: Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Leaves_A.mat using Guid(91bf4af0f70ef3045a6215a4c90676dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1555cee8d43de67d7300a90ac7b21816') in 0.037072 seconds 
-  Import took 0.039686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_C.mat
-  artifactKey: Guid(19daeccbc664d8141990dd03570ee008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_C.mat using Guid(19daeccbc664d8141990dd03570ee008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168ad36f051ec1bc46870c3ff0c40d45') in 0.019076 seconds 
-  Import took 0.022356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat
-  artifactKey: Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Texture_Pack/GRASS/GRASS_Dense/GRASS_Dense_Tint_01/Materials/Grass_Dense_Tint_01_Base_B.mat using Guid(7cdafb159eb941a45ac8fb89a05295a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e5104483c90553eb343a405dde17fc') in 0.021980 seconds 
-  Import took 0.024897 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002257 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
-Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (81ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (707ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (731ms)
 			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (251ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (177ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (197ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.2 MB.
-System memory in use after: 75.3 MB.
+System memory in use before: 75.5 MB.
+System memory in use after: 75.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2230.
-Total: 4.751540 ms (FindLiveObjects: 0.148342 ms CreateObjectMapping: 0.042326 ms MarkObjects: 4.505317 ms  DeleteObjects: 0.054455 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2234.
+Total: 4.573758 ms (FindLiveObjects: 0.139276 ms CreateObjectMapping: 0.066398 ms MarkObjects: 4.305854 ms  DeleteObjects: 0.060860 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -421,26 +477,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.207168 seconds.
-  path: Assets/Models/New LightmapParameters.giparams
-  artifactKey: Guid(4cc0d4c80db5bad33862626193049a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/New LightmapParameters.giparams using Guid(4cc0d4c80db5bad33862626193049a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90520d711e4de3596b2403263879250') in 0.012819 seconds 
-  Import took 0.015491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.721035 seconds.
-  path: Assets/Models/Knight_Blast_Forest_Map.blend
-  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48008b03fcbd2d4123c060d93fb6db7') in 0.094045 seconds 
-  Import took 0.097021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.924350 seconds.
+  Time since last request: 679.435449 seconds.
   path: Assets/Models/Knight_Blast_Fauna.blend
   artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f382e540e61a8324c0bf3058c5f54') in 0.159474 seconds 
-  Import took 0.162852 seconds .
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d2d9d9e1772b372b3ae62f5d9b32f3') in 0.209433 seconds 
+  Import took 0.212696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.113496 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend1
+  artifactKey: Guid(45721871fb5b7e9bd91dea43be47c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend1 using Guid(45721871fb5b7e9bd91dea43be47c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc27a8c3a5f626b7f3316f4a7286fb4') in 0.001274 seconds 
+  Import took 0.003952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.515830 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d461ebd82fa570ec7b9b84b89246cd') in 0.243789 seconds 
+  Import took 0.248113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.066324 seconds.
+  path: Assets/Models/Knight_Blast_Fauna.blend
+  artifactKey: Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Fauna.blend using Guid(9c8a8f8f54259ce47aca99a0234704cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abaa0dfedd776eaad7bc435cff1bb11') in 0.214116 seconds 
+  Import took 0.216752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.735375 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f779fe4783e1ef7e45c5fe1ce3ee0d6') in 0.032231 seconds 
+  Import took 0.035757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.359242 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee72945ac817110c5db52328ff79a95c') in 0.034492 seconds 
+  Import took 0.037431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 257.717480 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73fea44776eaf3cc42e01b63812ab59') in 0.045868 seconds 
+  Import took 0.048770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.064690 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f8ad92f35d64c3007dd7f276f78e16') in 0.040427 seconds 
+  Import took 0.044725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.859281 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2ffbb324aa2d1d31d10bd6c51f247') in 0.029538 seconds 
+  Import took 0.032365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1022.320370 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b34b84324f8f8a89bddca43de27ac49') in 0.021120 seconds 
+  Import took 0.024064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.825341 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8facf8f1dc8e31ae378469ae3ea945da') in 0.028072 seconds 
+  Import took 0.030922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.203863 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226cb29bc330b8fbbbc027fea47d3d7') in 0.033804 seconds 
+  Import took 0.037034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.825117 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(2570c1505b56d216db6b309f93577d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(2570c1505b56d216db6b309f93577d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e1b8ddbc6a9678d3041901ba183784') in 0.033149 seconds 
+  Import took 0.036634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.413890 seconds.
+  path: Assets/Assets.index
+  artifactKey: Guid(2570c1505b56d216db6b309f93577d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(2570c1505b56d216db6b309f93577d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ffd1e54daece97890acadec3e8cc93') in 0.008358 seconds 
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.370215 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348f3462e051fc3ac2f8c67810b89fad') in 0.039560 seconds 
+  Import took 0.043471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.491347 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afece1f24896dbe29742459181691757') in 0.037018 seconds 
+  Import took 0.039723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.953436 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a651e4011467af9c0e6e57a33c1738') in 0.033065 seconds 
+  Import took 0.035656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.698892 seconds.
+  path: Assets/Models/Knight_Blast_Forest_Map.blend
+  artifactKey: Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Knight_Blast_Forest_Map.blend using Guid(279bcdb82d0d46b46a0dc5ce57ec4d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25e6cc58b6f3aeceedaf130586a6cb0') in 0.034027 seconds 
+  Import took 0.037305 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
